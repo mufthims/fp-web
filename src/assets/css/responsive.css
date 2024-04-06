@@ -1,0 +1,860 @@
+@media only screen and (max-width:767px){
+  html{
+    font-size: 7px;
+  }
+  .container{
+    width:100%;
+    padding:0px 24px;
+  }
+  .ck.ck-editor__main>.ck-editor__editable{
+    min-height: 220px;
+  }
+  /*login*/
+  .empowering {
+    background-image: url(../images/company-mobile-bg.webp);
+    background-color: #151515;
+    padding: 24px 0px 48px 0px;
+    position:relative;
+  }
+  .empowering .logo-section a img{
+    width:139px;
+    margin:0 auto;
+  }
+  .empowering .logo-section a{
+    margin:0 auto;
+  }
+  .logo-section .content h1{
+    width:100%;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .logo-section .content p{
+    width:100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .empowering .form-section nav{
+    display: none;
+  }
+  .empowering .form-section {
+    width: 100%;
+    padding: 24px;
+    margin-top:40px;
+  }
+  .empowering .tab-content .tab-pane:first-child{
+    display: none;
+  }
+  .empowering .tab-content .tab-pane:nth-of-type(2){
+    display: block;
+    opacity: 1;
+  }
+  .empowering form .input-group .input-group-text {
+    padding: 7px 14px;
+  }
+  .empowering form .input-wrapper {
+    width:81%;
+  }
+  .empowering .copyrights{
+    position: absolute;
+    bottom:10px;
+    left:0px;
+    right:0px;
+    text-align: center;
+  }
+  .toggle-password{
+    font-size: 16px;
+  }
+  .empowering .tab-content .or-separation:before, .empowering .tab-content .or-separation:after {
+    width: 108px;
+    top: 9px;
+  }
+  .signin{
+    padding:20px 24px;
+  }
+  /*login*/
+  /*verification-code*/
+  .first-modal.verification-code  .col-lg-3{
+    width:25%;
+  }
+  .first-modal.verification-code .input-wrapper{
+    width:100%;
+  }
+  .first-modal.verification-code .modal-body {
+    padding: 0px 30px 42px;  
+  }
+  /*verification-code*/
+  /*forgot-password*/
+  .first-modal .modal-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .first-modal .modal-body {
+    padding: 60px 24px;
+    width: 100%;
+  }
+  .first-modal .modal-body p{
+    width:100%;
+  }
+  .first-modal .modal-header{
+    width:100%;
+  }
+  /*forgot-password*/
+  /*signup*/
+  .empowering .form-section.signup .tab-content .tab-pane:first-child{
+    display: block;
+  }
+  /*signup*/
+  /*pricing-plan*/
+  .empowering.pricing .signature{
+    width:100%;
+    display: block !important;
+  }
+  .empowering.pricing .ready-started{
+    justify-content: center;
+  }
+  .empowering.pricing .tailored{
+    margin-top:40px;
+  }
+  .empowering.pricing .signature .starter{
+    margin-bottom:40px;
+  }
+  .empowering.pricing .signature .starter:last-child{
+    margin-bottom:0px;
+  }
+  /*pricing-plan*/
+  .payment-page .pay-card, .payment-page .subscribe{
+    padding:24px;
+  }
+  /*pricing-plan*/
+  /*sidemenu*/
+  #sidebar{
+    width: 100%;
+    height: calc(100vh - 150px);
+    position: absolute;
+    left:-330px;
+    top: 0px;
+    z-index: 99;
+    margin-right:0px;
+    transition:left 0.3s linear;
+  }
+  #sidebar.visible{
+    transition:left 0.3s linear;
+    left:0px;
+    background: #000;
+    z-index: 99;
+    position: fixed;
+    top: 110px;
+  }
+  #sidebar-btn{
+    display:inline-block;
+    vertical-align: middle;
+    width:20px;
+    height:15px;
+    cursor:pointer;
+    position:absolute;
+    top:0px;
+    right:-20px;
+  }
+  #sidebar-btn span{
+    height:1px;
+    background:#fff;
+    margin-bottom:5px;
+    display:block;
+  }
+  .leftsidebar.visible #sidebar-btn{
+    right:13px;
+  }
+  #sidebar.visible #sidebar-btn span:nth-child(1){
+    transform: rotate(-45deg);
+    margin: 0px;
+  }
+  #sidebar-btn span:nth-child(2){
+    width:75%;
+  }
+  #sidebar.visible #sidebar-btn span:nth-child(2){
+    display: none;
+  }
+  #sidebar-btn span:nth-child(3){
+    width:50%;
+  }
+  #sidebar.visible #sidebar-btn span:nth-child(3){
+    transform: rotate(45deg);
+    width: 100%;
+  }
+  .feeds .rights {
+    margin: 0px;
+    padding: 15px 0px;
+  }
+  #sidebar.visible .rights{
+    background: #000;
+  }
+  /*sidemenu*/
+  /*company-feeds*/
+  .header.company .company-name h1{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .header.company .logo-section{
+    order: 1;
+    width: auto;
+  }
+  .header.company .company-name{
+    order:3;
+    width:100%;
+  }
+  .header .right-menu{
+    order:2;
+    width: auto;
+  }
+  .feeds .post-feed{
+    width:100%;
+    margin-top:40px;
+  }
+  .feeds .navbar{
+    z-index: 9;
+    width:89%;
+    overflow-y: auto;
+    height: 100%;
+  }
+  .feeds .post-feed .heading{
+    padding:10px 20px;
+  }
+  .feeds .feed-options{
+    padding:20px;
+  }
+  .ck.ck-editor__main{
+    height:220px;
+  }
+  .data-form .file-name{
+    width:70%;
+  }
+  .feed-options.post-active .data-form .file-name, .feed-options .data-form.new-file-upload .file-name{
+    width:70%;
+  }
+  .feed-options .data-form .browser{
+    width:29%;
+  }
+  .feeds .post-preview .post {
+    padding: 10px 20px;
+    width: 100px;
+  }
+  .feeds .feed-options .add-skill{
+    padding:10px;
+  }
+  .table-manage-feed table tr{
+    border: 1px solid #898989;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    width:100%;
+  }
+  .table-manage-feed table tr td, .table-manage-feed table tr td:first-child, .table-manage-feed table tr td:nth-of-type(2){
+    text-align: center;
+  }
+  .table-manage-feed table tr td .active{
+    margin:0 auto;
+  }
+  .table-manage-feed table tr td .fa-pencil, .table-manage-feed table tr td .fa-eye, .table-manage-feed table tr td .fa-trash-can{
+    font-size: 15px;
+  }
+  .table-manage-feed table tr td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    background: transparent;
+    width: 60px;
+    right: auto;
+    bottom: auto;
+    height: auto;
+    text-align: left;
+    margin-right:10px;
+  }
+  .table-manage-feed table tr td:first-child::before{
+    left:auto;
+  }
+  .table-manage-feed table tr td:last-child:before{
+    right: auto;
+  }
+  .table-manage-feed table tr td:after{
+    background-color: transparent;
+  }
+  .table-manage-feed table tr td:nth-of-type(3){
+    width: 100%;
+  }
+  .feeds .feed-options input, .feeds .feed-options textarea{
+    padding:14px;
+  }
+  /*company-feeds*/
+  .feeds .feed-options.post-active .form-group.full-textarea, .feeds .feed-options.post-active .add-content .full-textarea{
+    width:100%;
+  }
+  .feeds .feed-options .row .form-group.new-file-upload{
+    width:87%;
+  }
+  .feeds .feed-options.post-active .adding-button {
+    width: 13%;
+  }
+  .post-feed .job-details{
+    padding:10px 20px;
+  }
+  .post-feed .job-details .job-id {
+    margin-right: 30px;
+    margin-bottom: 10px;
+  }
+  #bindedId .col-lg-6{
+    width:100%;
+  }
+  .data-form .browser input[type="file"]{
+    width:100%;
+  }
+  .feeds .feed-options textarea{
+    width:100%;
+  }
+  .feeds .feed-options .remove-skill.question {
+    top: 4px;
+    right: -9px;
+  }
+  /*student-response-detail-popup*/
+  .first-modal.students-details .students-information{
+    width:100%;
+    padding-left:0px;
+    border-left: none;
+  }
+  .first-modal.students-details .modal-content {
+    width: 100%;
+    background-color: #151515;
+    padding: 6px 25px 48px;
+  }
+  .first-modal.students-details .students-information .form-group {
+    margin-bottom: 24px;
+    width: 50%;
+  }
+  .first-modal.students-details .students-information .contact, .first-modal.students-details .students-information .accepted, .first-modal.students-details .students-information .onhold, .first-modal.students-details .students-information .decline{
+    padding:10px 20px;
+    margin-right:10px;
+    margin-bottom: 10px;
+  }
+  .first-modal.students-details .image-section img{
+    width:70px;
+    height:70px;
+  }
+  /*student-response-detail-popup*/
+  /*microsite-popup*/
+  .professional-popup .content-width.apprentice-details {
+    width: 100%;
+  }
+  .professional-popup .clothing{
+    width:100%;
+    padding:20px 0px;
+  }
+  .professional-popup .clothing p{
+    line-height: 18px;
+  }
+  .professional-popup .trandsetter-apparel .day-day{
+    width:100%;
+  }
+  .professional-popup .modal-body{
+    padding:0px 20px;
+  }
+  .professional-popup .content-width.apprentice-details .professional-images img{
+    width:150px;
+    height:150px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  .professional-popup .trandsetter-apparel{
+    padding:10px 0px;
+  }
+  .professional-popup .trandsetter-apparel .day-day p{
+    margin-bottom: 20px;
+  }
+  .professional-popup .profile-banner .banner-content {
+    bottom: 10px;
+    left: 10px;
+  }
+  /*microsite-popup*/
+  /*myaccount*/
+  .self-evaluation .myaccount-list{
+    display: none;
+  }
+  .middle-section .my-account .heading{
+    padding:10px 20px;
+  }
+  .middle-section .my-account .data-form{
+    padding:10px 20px;
+  }
+  .first-modal .modal-content{
+    width:100%;
+  }
+  .first-modal .modal-body{
+    padding:40px 20px;
+  }
+  .self-evaluation{
+    position: relative;
+  }
+  .self-evaluation .copyrights{
+    position: absolute;
+    bottom:0px;
+  }
+  .data-form .browser{
+    width:29%;
+  }
+  .self-evaluation .post-feed, .self-evaluation .my-account{
+    margin-top:15px;
+  }
+  .data-form .image-preview{
+    width:100%;
+  }
+  .payment-page .company-plans .plan-name{
+    order:1;
+  }
+  .payment-page .company-plans .prices{
+    order:2; 
+  }
+  .payment-page .company-plans .benefits{
+    order:3;
+    width:100%;
+    padding:12px 0px;
+    border-right: none;
+  }
+  .payment-page .single-plan{
+    margin-bottom: 20px;
+  }
+  .payment-page .company-plans{
+    margin-top: 40px;
+  }
+  .payment-page.plans-details .select-box{
+    width:60%;
+    margin-right: 10px;
+  }
+  .payment-page.plans-details .plan-box{
+    width:27%;
+  }
+  /*myaccount*/
+  /*payment*/
+  .payment-page .billing table tr td{
+    display: inline-block;
+    width:49%;
+  }
+  .payment-page .billing h1{
+    margin:0px 0px 20px 0px;
+  }
+  .payment-page .subscribe .back{
+    margin-bottom: 20px;
+  }
+  .payment-page.plans-details .pay-card .plans-dropdowns{
+    width:100%;
+    padding:15px;
+  }
+  #cartlist{
+    width:100%;
+  }
+  .payment-page .subscribe{
+    min-height: auto;
+  }
+  /*payment*/
+  /*thankyou*/
+  .empowering .thanks p{
+    width:100%;
+  }
+  /*thankyou*/
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    html{
+       font-size: 8px;
+    }
+    .container{
+      width:100%;
+      padding:0px 24px;
+    }
+    /*login*/
+    .empowering {
+      background-image: url(../images/company-mobile-bg.webp);
+      background-color: #151515;
+      padding: 24px 0px 48px 0px;
+      position:relative;
+    }
+    .empowering .logo-section a img{
+      width:139px;
+      margin:0 auto;
+    }
+    .empowering .logo-section a{
+      margin:0 auto;
+    }
+    .logo-section .content h1{
+      width:520px;
+      margin:0 auto;
+      font-size: 40px;
+      line-height: 44px;
+      padding:24px 0px 15px 0px;
+    }
+    .logo-section .content p{
+      width:520px;
+      margin:0 auto;
+      font-size: 14px;
+      line-height: 20px;
+      padding-bottom:30px;
+    }
+    .empowering .form-section nav{
+      display: none;
+    }
+    .empowering .form-section {
+      float: none;
+      margin:0 auto;
+    }
+    .empowering .tab-content .tab-pane:first-child{
+      display: none;
+    }
+    .empowering .tab-content .tab-pane:nth-of-type(2){
+      display: block;
+      opacity: 1;
+    }
+    .empowering form .input-group .input-group-text {
+      padding: 7px 14px;
+    }
+    .empowering form .input-wrapper {
+      width:81%;
+    }
+    .empowering .copyrights{
+      position: absolute;
+      bottom:10px;
+      left: 0px;
+      right: 0px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .empowering .tab-content .or-separation:before, .empowering .tab-content .or-separation:after {
+      width: 108px;
+      top: 9px;
+    }
+    .signin{
+      padding:20px 24px;
+    }
+    .input-wrapper input, .input-wrapper.selection-box select {
+      padding: 28px 32px 10px 16px;
+    }
+    .empowering form .input-group .input-group-text{
+       padding:16px 31px;
+    }
+    /*login*/
+  /*signup*/
+  .empowering .form-section.signup .tab-content .tab-pane:first-child{
+    display: block;
+  }
+  /*signup*/
+  /*pricing-plan*/
+  .empowering.pricing .signature{
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+  }
+  .empowering.pricing .signature .starter {
+    margin: 0px 30px 0px 0px;
+    width:210px;
+  }
+  .empowering.pricing .signature .starter:nth-of-type(3n){
+    margin:0px 0px 0px 0px;
+  }
+  .empowering.pricing .starter .plan-details, .empowering.pricing .starter .starter-include{
+    padding:24px;
+  }
+  /*pricing-plan*/
+  /*manage-feeds*/
+  .header.company .company-name {
+    width: 48%;
+  }
+  .header .right-menu {
+    width: 140px;
+    max-width: 140px;
+    flex: 0 0 140px;
+  }
+  .table-manage-feed table tr{
+    border: 1px solid #898989;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    width:100%;
+  }
+  .table-manage-feed table tr td, .table-manage-feed table tr td:first-child, .table-manage-feed table tr td:nth-of-type(2){
+    text-align: center;
+  }
+  .table-manage-feed table tr td .active{
+    margin:0 auto;
+  }
+  .table-manage-feed table tr td .fa-pencil, .table-manage-feed table tr td .fa-eye, .table-manage-feed table tr td .fa-trash-can{
+    font-size: 15px;
+  }
+  .table-manage-feed table tr td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    background: transparent;
+    width: 60px;
+    right: auto;
+    bottom: auto;
+    height: auto;
+    text-align: left;
+    margin-right:10px;
+  }
+  .table-manage-feed table tr td:first-child::before{
+    left:auto;
+  }
+  .table-manage-feed table tr td:last-child:before{
+    right: auto;
+  }
+  .table-manage-feed table tr td:after{
+    background-color: transparent;
+  }
+  .table-manage-feed table tr td:nth-of-type(3){
+    width: 100%;
+  }
+  .feeds .feed-options.post-active .form-group.full-textarea, .feeds .feed-options.post-active .add-content .full-textarea{
+    width:100%;
+  }
+  .feeds .feed-options .form-group.new-file-upload{
+    width:87%;
+  }
+  .feeds .feed-options.post-active .adding-button {
+    width: 13%;
+  }
+  .feeds .feed-options .remove-skill.question {
+    top: -33px;
+    right: -23px;
+  }
+  /*manage-feeds*/
+  /*payment*/
+  .payment-page .subscribe{
+    width:100%;
+    min-height: 100%;
+    height: auto;
+  }
+  .payment-page .pay-card{
+    width:100%;
+  }
+  /*payment*/
+  /*feeds*/
+  .data-form .file-name{
+    width:72%;
+  }
+  .feeds .feed-options .add-skill{
+    padding:10px;
+  }
+  .professional-popup .content-width.apprentice-details{
+    width:100%;
+    padding:0px 10px;
+  }
+  .content-width.apprentice-details .coutour-studios .col-lg-6{
+    width:50%;
+  }
+  .professional-popup .coutour-studios .apply h1{
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .professional-popup .clothing{
+    width:100%;
+    line-height: 21px;
+  }
+  .professional-popup .location-published h2{
+    font-size: 20px;
+  }
+  .professional-popup .professional-images .designer-jobs{
+    width:170px;
+    min-height:170px;
+  }
+  .professional-popup .content-width.apprentice-details .professional-images img{
+    width:170px;
+    height:170px;
+  }
+  .professional-popup .content-width.apprentice-details .designer-jobs ul li span {
+    padding: 6px 10px;
+    margin-bottom: 6px;
+  }
+  .professional-popup .apprentience{
+    padding:20px 0px;
+    width:50%;
+    display: inline-flex;
+  }
+  .professional-popup .apprentience ul li{
+    padding-bottom: 6px;
+  }
+  /*feeds*/
+  .table-manage-feed table tr td::before{
+    width:90px;
+  }
+  /*payments*/
+  .payment-page.plans-details .pay-card .plans-dropdowns{
+    width:100%;
+    padding:15px;
+  }
+  #cartlist{
+    width:100%;
+  }
+  /*payments*/
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+  html{
+    font-size: 8.5px;
+  }
+  .container{
+    padding:0px 50px;
+  }
+  /*login*/
+  .empowering .form-section nav{
+    display: none;
+  }
+  .empowering .tab-content .tab-pane:first-child{
+    display: none;
+  }
+  .empowering .tab-content .tab-pane:nth-of-type(2){
+    display: block;
+    opacity: 1;
+  }
+  .empowering form .input-wrapper{
+    width:76%;
+  }
+  /*login*/
+   /*signup*/
+   .empowering .form-section.signup .tab-content .tab-pane:first-child{
+    display: block;
+  }
+  /*signup*/
+  /*pricing-plan*/
+  .empowering.pricing .signature .starter{
+    width:270px;
+  }
+  /*pricing-plan*/
+  /*active-sourcing*/
+  .professional-popup .content-width.apprentice-details{
+    width:100%;
+    padding:0px 10px;
+  }
+  .professional-popup .content-width.apprentice-details .professional-images img {
+    width: 225px;
+    height: 225px;
+  }
+  .professional-popup .professional-images .designer-jobs {
+    width: 225px;
+    min-height: 225px;
+ }
+  /*active-sourcing*/
+  .table-manage-feed table tr td{
+    padding:10px 10px;
+  }
+  .feeds .navbar .nav-link{
+    padding:20px 10px;
+  }
+  .feeds .post-feed {
+    width: calc(100% - 230px);
+  }
+  .feeds .leftsidebar{
+    width:210px;
+  }
+  /*payment*/
+  .payment-page .single-plan{
+    padding:16px 10px;
+  }
+  .payment-page .subscribe {
+    padding: 40px 20px 40px 20px;
+  }
+  .payment-page .company-plans .benefits {
+    width: 46%;
+  }
+  .payment-page .company-plans .benefits ul li{
+    width:46%;
+  } 
+  .payment-page .company-plans .prices{
+    padding-left:24px;
+  }  
+  .payment-page .company-plans .prices span {
+    width: 20px;
+    font-size: 12px;
+  }
+  .payment-page .company-plans .prices p {
+    padding: 0px 6px;
+    font-size: 22px;
+  }
+  .header.company .company-name {
+    width: 51%;
+  }
+  .payment-page.plans-details .pay-card .plans-dropdowns{
+    width:100%;
+  }
+  .payment-page.plans-details .select-box{
+    width:200px;
+  }
+  .payment-page.plans-details .plan-box{
+    width:120px;
+  }
+  #cartlist{
+    width:100%;
+  }
+  .payment-page.plans-details .pay-amount{
+    width:100%;
+  }
+  /*payment*/
+}
+@media only screen and (min-width:1200px) and (max-width:1364px){
+  .container{
+    max-width:1150px;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  table {
+    border: 0;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table td {
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  .table-manage-feed table tr td:before::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label) !important;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+@media only screen and (min-width:1440px){
+  .payment-page > .row{
+    min-height: 100vh;
+    height: auto;
+  }
+}
+
+
+
